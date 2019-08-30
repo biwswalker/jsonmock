@@ -10,21 +10,146 @@
       "iso_code": "THA",
       "name": "Thailand",
       "currency": "THB"
-    }, {
+    },
+    {
       "count_code": "95",
       "iso_code": "MMA",
       "name": "Myanmar",
       "currency": "MMK"
-      }, {
+    },
+    {
       "count_code": "885",
       "iso_code": "KHM",
       "name": "Cambodia",
       "currency": "KHA"
-      }, {
+    },
+    {
       "count_code": "62",
       "iso_code": "IDN",
       "name": "Indonesia",
       "currency": "IDR"
     }
-  ]
+  ],
+  "dashboard": {
+    "daily_report": {
+      "total_deposit": {
+        "value": 100,
+        "currency": "THB"
+      },
+      "total_transfer": {
+        "value": 200,
+        "currency": "THB"
+      },
+      "total_withdraw": {
+        "value": 300,
+        "currency": "THB"
+      },
+      "remaining_balance": {
+        "value": 400,
+        "currency": "THB"
+      },
+      "last_update": "1567143848"
+    },
+    "monthly_report": {
+      "total_deposit": {
+        "value": 400,
+        "currency": "THB"
+      },
+      "total_transfer": {
+        "value": 300,
+        "currency": "THB"
+      },
+      "total_withdraw": {
+        "value": 200,
+        "currency": "THB"
+      },
+      "remaining_balance": {
+        "value": 100,
+        "currency": "THB"
+      },
+      "last_update": "1566366248"
+    },
+    "user_management": {
+      "total_users": 30000,
+      "suspended": 500,
+      "active": 150000
+    },
+    "vat_rate": {
+      "rate": 10,
+      "last_update": "1529819048"
+    },
+    "exchange_rate": {
+      "purchase_rate": {
+        "value": 15.05,
+        "currency": "THB"
+      },
+      "market_rate": {
+        "value": 20.1,
+        "currency": "THB"
+      },
+      "sell_rate": {
+        "value": 18.9,
+        "currency": "THB"
+      },
+      "margin": 1.54
+    },
+    "support": {
+      "issues": 2000,
+      "on_process": 800,
+      "waiting": 400,
+      "done": 200
+    },
+    "destination_fee": [
+      {
+        "source": "Thailand",
+        "destinations": [
+          {
+            "image_uri": "www.google.co.th/image.png",
+            "destination": "Ly Hour",
+            "fee": 200,
+            "currency": "THB"
+          },
+          {
+            "image_uri": "www.google.co.th/image.png",
+            "destination": "Inception",
+            "fee": 320,
+            "currency": "THB"
+          }
+        ]
+      },
+      {
+        "source": "Myanmar",
+        "destinations": [
+          {
+            "image_uri": "www.google.co.th/image.png",
+            "destination": "Ly Hour",
+            "fee": 200,
+            "currency": "THB"
+          }
+        ]
+      },
+      {
+        "source": "Cambodia",
+        "destinations": [
+          {
+            "image_uri": "www.google.co.th/image.png",
+            "destination": "Inception",
+            "fee": 400,
+            "currency": "THB"
+          }
+        ]
+      },
+      {
+        "source": "Indonesia",
+        "destinations": [
+          {
+            "image_uri": "www.google.co.th/image.png",
+            "destination": "Inception",
+            "fee": 100,
+            "currency": "THB"
+          }
+        ]
+      }
+    ]
+  }
 }
