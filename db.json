@@ -3,5 +3,28 @@
     "access_token": "b03cfa37-72f3-4209-b3aa-f3387cd92f21",
     "refresh_token": "f2f0d51d-4a3a-4e41-9264-8195d6b8cb01",
     "is_admin": false
-  }
+  },
+  "country": [
+    {
+      "count_code": "66",
+      "iso_code": "THA",
+      "name": "Thailand",
+      "currency": "THB"
+    }, {
+      "count_code": "95",
+      "iso_code": "MMA",
+      "name": "Myanmar",
+      "currency": "MMK"
+      }, {
+      "count_code": "885",
+      "iso_code": "KHM",
+      "name": "Cambodia",
+      "currency": "KHA"
+      }, {
+      "count_code": "62",
+      "iso_code": "IDN",
+      "name": "Indonesia",
+      "currency": "IDR"
+    }
+  ]
 }
