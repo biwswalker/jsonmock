@@ -33,46 +33,46 @@
   "dashboard": {
     "daily_report": {
       "total_deposit": {
-        "value": 100,
+        "value": 0,
         "currency": "THB"
       },
       "total_transfer": {
-        "value": 200,
+        "value": 0,
         "currency": "THB"
       },
       "total_withdraw": {
-        "value": 300,
+        "value": 0,
         "currency": "THB"
       },
       "remaining_balance": {
-        "value": 400,
+        "value": 0,
         "currency": "THB"
       },
       "last_update": "1567143848"
     },
     "monthly_report": {
       "total_deposit": {
-        "value": 400,
+        "value": 0,
         "currency": "THB"
       },
       "total_transfer": {
-        "value": 300,
+        "value": 0,
         "currency": "THB"
       },
       "total_withdraw": {
-        "value": 200,
+        "value": 0,
         "currency": "THB"
       },
       "remaining_balance": {
-        "value": 100,
+        "value": 0,
         "currency": "THB"
       },
       "last_update": "1566366248"
     },
     "user_management": {
-      "total_users": 30000,
-      "suspended": 500,
-      "active": 150000
+      "total_users": 0,
+      "suspended": 0,
+      "active": 0
     },
     "vat_rate": {
       "rate": 10,
@@ -94,10 +94,10 @@
       "margin": 1.54
     },
     "support": {
-      "issues": 2000,
-      "on_process": 800,
-      "waiting": 400,
-      "done": 200
+      "issues": 0,
+      "on_process": 0,
+      "waiting": 0,
+      "done": 0
     },
     "destination_fee": [
       {
@@ -106,13 +106,13 @@
           {
             "image_uri": "www.google.co.th/image.png",
             "destination": "Ly Hour",
-            "fee": 200,
+            "fee": 0,
             "currency": "THB"
           },
           {
             "image_uri": "www.google.co.th/image.png",
             "destination": "Inception",
-            "fee": 320,
+            "fee": 0,
             "currency": "THB"
           }
         ]
@@ -123,7 +123,7 @@
           {
             "image_uri": "www.google.co.th/image.png",
             "destination": "Ly Hour",
-            "fee": 200,
+            "fee": 0,
             "currency": "THB"
           }
         ]
@@ -134,7 +134,7 @@
           {
             "image_uri": "www.google.co.th/image.png",
             "destination": "Inception",
-            "fee": 400,
+            "fee": 0,
             "currency": "THB"
           }
         ]
@@ -145,7 +145,7 @@
           {
             "image_uri": "www.google.co.th/image.png",
             "destination": "Inception",
-            "fee": 100,
+            "fee": 0,
             "currency": "THB"
           }
         ]
