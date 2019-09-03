@@ -154,27 +154,39 @@
   },
   "exchange_rate": {
     "base": "THB",
-    "rate": {
-      "MMK": {
-        "purchase_rate": 0.0200,
-        "market_rate": 0.0200,
-        "sell_rate": 0.0202
+    "rates": [
+      {
+        "currency": "MMK",
+        "rate": {
+          "purchase_rate": 0.0200,
+          "market_rate": 0.0200,
+          "sell_rate": 0.0202
+        }
       },
-      "KHR": {
-        "purchase_rate": 0.7446,
-        "market_rate": 0.7446,
-        "sell_rate": 0.7531
+      {
+        "currency": "KHR",
+        "rate": {
+          "purchase_rate": 0.7446,
+          "market_rate": 0.7446,
+          "sell_rate": 0.7531
+        }
       },
-      "IDR": {
-        "purchase_rate": 2.0627,
-        "market_rate": 2.0113,
-        "sell_rate": 2.2804
+      {
+        "currency": "IDR",
+        "rate": {
+          "purchase_rate": 2.0627,
+          "market_rate": 2.0113,
+          "sell_rate": 2.2804
+        }
       },
-      "THB": {
-        "purchase_rate": 1,
-        "market_rate": 1,
-        "sell_rate": 1
+      {
+        "currency": "THB",
+        "rate": {
+          "purchase_rate": 1,
+          "market_rate": 1,
+          "sell_rate": 1
+        }
       }
-    }
+    ]
   }
 }
