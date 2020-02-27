@@ -30,123 +30,179 @@
       "currency": "IDR"
     }
   ],
-  "dashboard": {
-    "daily_report": {
-      "total_deposit": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "total_transfer": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "total_withdraw": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "remaining_balance": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "last_update": "1567143848"
-    },
-    "monthly_report": {
-      "total_deposit": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "total_transfer": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "total_withdraw": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "remaining_balance": {
-        "value": 0,
-        "currency": "THB"
-      },
-      "last_update": "1566366248"
-    },
-    "user_management": {
-      "total_users": 0,
-      "suspended": 0,
-      "active": 0
-    },
-    "vat_rate": {
-      "rate": 10,
-      "last_update": "1529819048"
-    },
-    "exchange_rate": {
-      "purchase_rate": {
-        "value": 15.05,
-        "currency": "THB"
-      },
-      "market_rate": {
-        "value": 20.1,
-        "currency": "THB"
-      },
-      "sell_rate": {
-        "value": 18.9,
-        "currency": "THB"
-      },
-      "margin": 1.54
-    },
-    "support": {
-      "issues": 0,
-      "on_process": 0,
-      "waiting": 0,
-      "done": 0
-    },
-    "destination_fee": [
+  "transaction_report": {
+    "displayKeys": [
+      "agent",
+      "sale",
+      "customer"
+    ],
+    "total": [
       {
-        "source": "Thailand",
-        "destinations": [
+        "name": "Total transfer",
+        "total": 84870,
+        "percent": -4
+      },
+      {
+        "name": "Agent - Agent",
+        "total": 52810,
+        "percent": -4
+      },
+      {
+        "name": "Sale - Agent",
+        "total": 15300,
+        "percent": 7
+      },
+      {
+        "name": "Customer - Agent",
+        "total": 17000,
+        "percent": 0
+      }
+    ],
+    "data": [
+      {
+        "name": "30 Jan",
+        "label": "1/02/20",
+        "records": [
           {
-            "image_uri": "www.google.co.th/image.png",
-            "destination": "Ly Hour",
-            "fee": 0,
-            "currency": "THB"
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 4000
           },
           {
-            "image_uri": "www.google.co.th/image.png",
-            "destination": "Inception",
-            "fee": 0,
-            "currency": "THB"
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 2400
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 2400
           }
         ]
       },
       {
-        "source": "Myanmar",
-        "destinations": [
+        "name": "1 Feb",
+        "label": "2/02/20",
+        "records": [
           {
-            "image_uri": "www.google.co.th/image.png",
-            "destination": "Ly Hour",
-            "fee": 0,
-            "currency": "THB"
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 3000
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 1394
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 3520
           }
         ]
       },
       {
-        "source": "Cambodia",
-        "destinations": [
+        "name": "2",
+        "label": "3/02/20",
+        "records": [
           {
-            "image_uri": "www.google.co.th/image.png",
-            "destination": "Inception",
-            "fee": 0,
-            "currency": "THB"
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 2000
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 8900
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 2290
           }
         ]
       },
       {
-        "source": "Indonesia",
-        "destinations": [
+        "name": "3",
+        "label": "4/02/20",
+        "records": [
           {
-            "image_uri": "www.google.co.th/image.png",
-            "destination": "Inception",
-            "fee": 0,
-            "currency": "THB"
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 2780
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 3908
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 2182
+          }
+        ]
+      },
+      {
+        "name": "4",
+        "label": "5/02/20",
+        "records": [
+          {
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 1890
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 4800
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 4000
+          }
+        ]
+      },
+      {
+        "name": "5",
+        "label": "6/02/20",
+        "records": [
+          {
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 3592
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 3822
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 2500
+          }
+        ]
+      },
+      {
+        "name": "6",
+        "label": "7/02/20",
+        "records": [
+          {
+            "keyName": "agent",
+            "label": "Agent - Agent",
+            "value": 4003
+          },
+          {
+            "keyName": "sale",
+            "label": "Sale - Agent",
+            "value": 4232
+          },
+          {
+            "keyName": "customer",
+            "label": "Customer - Agent",
+            "value": 2100
           }
         ]
       }
