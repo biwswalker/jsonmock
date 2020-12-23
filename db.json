@@ -208,41 +208,1007 @@
       }
     ]
   },
-  "exchange_rate": {
-    "base": "THB",
-    "rates": [
-      {
-        "currency": "MMK",
-        "rate": {
-          "purchase_rate": 0.0200,
-          "market_rate": 0.0200,
-          "sell_rate": 0.0202
-        }
-      },
-      {
-        "currency": "KHR",
-        "rate": {
-          "purchase_rate": 0.7446,
-          "market_rate": 0.7446,
-          "sell_rate": 0.7531
-        }
-      },
-      {
-        "currency": "IDR",
-        "rate": {
-          "purchase_rate": 2.0627,
-          "market_rate": 2.0113,
-          "sell_rate": 2.2804
-        }
-      },
-      {
-        "currency": "THB",
-        "rate": {
-          "purchase_rate": 1,
-          "market_rate": 1,
-          "sell_rate": 1
-        }
-      }
-    ]
-  }
+  "transactions": {
+    "data": {
+        "page": 1,
+        "limit": 21,
+        "total": 1,
+        "dataList": [
+            {
+                "id": 71,
+                "tag": "D1O000000000000018",
+                "money": "2000000.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-08T02:36:10.522Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 2,
+                    "username": "admin",
+                    "phone_number": "1111111112",
+                    "wallet_id": 3,
+                    "user_bank_id": 2,
+                    "affilate_me_uuid": "615a72e0-1ef3-4f96-a321-ddbc9af9007d",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-08T02:35:59.965Z",
+                "updated_at": "2020-10-08T02:36:11.455Z"
+            },
+            {
+                "id": 78,
+                "tag": "AW1O000000000000010",
+                "money": "5000.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:44:30.973Z",
+                "updated_at": "2020-10-08T14:44:30.973Z"
+            },
+            {
+                "id": 79,
+                "tag": "AW1O000000000000011",
+                "money": "100000.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:45:06.866Z",
+                "updated_at": "2020-10-08T14:45:06.866Z"
+            },
+            {
+                "id": 80,
+                "tag": "AW1O000000000000012",
+                "money": "500000.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:45:22.733Z",
+                "updated_at": "2020-10-08T14:45:22.733Z"
+            },
+            {
+                "id": 81,
+                "tag": "AW1O000000000000013",
+                "money": "301.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:46:02.138Z",
+                "updated_at": "2020-10-08T14:46:02.138Z"
+            },
+            {
+                "id": 82,
+                "tag": "AW1O000000000000014",
+                "money": "301.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:51:14.724Z",
+                "updated_at": "2020-10-08T14:51:14.724Z"
+            },
+            {
+                "id": 83,
+                "tag": "AW1O000000000000015",
+                "money": "301.00",
+                "type": "AFFILATE_WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": null,
+                "description": "success",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": null,
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 8,
+                    "money": "594097.00",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "created_at": "2020-10-08T14:53:29.636Z",
+                "updated_at": "2020-10-08T14:53:29.636Z"
+            },
+            {
+                "id": 160,
+                "tag": "D1O000000000000049",
+                "money": "2000.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-14T03:04:59.585Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-14T03:04:42.343Z",
+                "updated_at": "2020-10-14T03:05:00.530Z"
+            },
+            {
+                "id": 162,
+                "tag": "D1O000000000000050",
+                "money": "100.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-14T03:11:13.809Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-14T03:11:07.017Z",
+                "updated_at": "2020-10-14T03:11:14.818Z"
+            },
+            {
+                "id": 164,
+                "tag": "D1O000000000000051",
+                "money": "10002.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-14T03:19:40.488Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-14T03:19:36.584Z",
+                "updated_at": "2020-10-14T03:19:41.347Z"
+            },
+            {
+                "id": 246,
+                "tag": "D1O000000000000083",
+                "money": "1000.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-31T12:10:09.570Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-31T12:09:05.052Z",
+                "updated_at": "2020-10-31T12:10:10.801Z"
+            },
+            {
+                "id": 250,
+                "tag": "D1O000000000000084",
+                "money": "10000.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-31T12:16:30.323Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-31T12:16:25.056Z",
+                "updated_at": "2020-10-31T12:16:31.661Z"
+            },
+            {
+                "id": 258,
+                "tag": "D1O000000000000088",
+                "money": "10000.00",
+                "type": "DEPOSIT",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-10-31T19:26:10.424Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-31T19:26:01.923Z",
+                "updated_at": "2020-10-31T19:26:11.922Z"
+            },
+            {
+                "id": 260,
+                "tag": "WGF1O000000000000039",
+                "money": "10000.00",
+                "type": "WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-11-01T00:00:00.000Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 1,
+                    "type": "KBANK",
+                    "name": "osas",
+                    "number": "444555",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-10-01T14:04:13+07:00",
+                    "updated_at": "2020-10-01T14:04:13+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-10-31T19:26:32.981Z",
+                "updated_at": "2020-10-31T19:26:46.928Z"
+            },
+            {
+                "id": 510,
+                "tag": "WGF1O000000000000148",
+                "money": "1000.00",
+                "type": "WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-11-24T21:45:22.000Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 35,
+                    "type": "SCB",
+                    "name": "asd",
+                    "number": "11234",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-11-06T04:14:02+07:00",
+                    "updated_at": "2020-11-06T04:14:02+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-24T21:45:04.571Z",
+                "updated_at": "2020-11-24T21:45:22.265Z"
+            },
+            {
+                "id": 512,
+                "tag": "WGF1O000000000000149",
+                "money": "1000.00",
+                "type": "WITHDRAW",
+                "status": "SUCCESS",
+                "user_tx_time": "2020-11-24T21:45:52.000Z",
+                "description": "-",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": {
+                    "id": 35,
+                    "type": "SCB",
+                    "name": "asd",
+                    "number": "11234",
+                    "status": "READY_TO_HARVEST",
+                    "created_at": "2020-11-06T04:14:02+07:00",
+                    "updated_at": "2020-11-06T04:14:02+07:00"
+                },
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-24T21:45:39.820Z",
+                "updated_at": "2020-11-24T21:45:52.588Z"
+            },
+            {
+                "id": 274,
+                "tag": "WGF1O000000000000042",
+                "money": "9004.00",
+                "type": "WITHDRAW",
+                "status": "FAIL",
+                "user_tx_time": "2020-11-12T07:09:38.406Z",
+                "description": "",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-06T03:54:39.242Z",
+                "updated_at": "2020-11-12T07:09:40.023Z"
+            },
+            {
+                "id": 477,
+                "tag": "WGF1O000000000000135",
+                "money": "1000.00",
+                "type": "WITHDRAW",
+                "status": "FAIL",
+                "user_tx_time": "2020-11-24T20:37:30.401Z",
+                "description": "",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-23T09:20:56.733Z",
+                "updated_at": "2020-11-24T20:37:34.000Z"
+            },
+            {
+                "id": 483,
+                "tag": "WGF1O000000000000136",
+                "money": "5000.00",
+                "type": "WITHDRAW",
+                "status": "FAIL",
+                "user_tx_time": "2020-11-23T09:57:01.062Z",
+                "description": "",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-23T09:46:46.302Z",
+                "updated_at": "2020-11-23T09:57:03.349Z"
+            },
+            {
+                "id": 484,
+                "tag": "WGF1O000000000000137",
+                "money": "3000.00",
+                "type": "WITHDRAW",
+                "status": "FAIL",
+                "user_tx_time": "2020-11-24T20:37:33.922Z",
+                "description": "",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-11-23T09:48:34.806Z",
+                "updated_at": "2020-11-24T20:37:37.000Z"
+            },
+            {
+                "id": 558,
+                "tag": "WGF1O000000000000169",
+                "money": "1000.00",
+                "type": "WITHDRAW",
+                "status": "FAIL",
+                "user_tx_time": "2020-12-19T11:42:20.489Z",
+                "description": "",
+                "user_id": {
+                    "id": 4,
+                    "username": "devtest",
+                    "phone_number": "2222222222",
+                    "wallet_id": 7,
+                    "user_bank_id": 4,
+                    "affilate_me_uuid": "38bc8415-ea53-4467-8747-f467290ca3bb",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "approve_user_id": {
+                    "id": 1,
+                    "username": "kingofthailandbet",
+                    "phone_number": "1111111111",
+                    "wallet_id": 1,
+                    "user_bank_id": 1,
+                    "affilate_me_uuid": "3f18c29c-ae8d-4310-bd6f-d2d00f17731c",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "user_bank_id": {
+                    "id": 4,
+                    "type": "SCB",
+                    "name": "dev_bank",
+                    "number": "99999999",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-10-01T05:27:38+07:00"
+                },
+                "web_bank_id": null,
+                "wallet_id": {
+                    "id": 7,
+                    "money": "7325.10",
+                    "created_at": "2020-10-01T05:27:38+07:00",
+                    "updated_at": "2020-12-22T00:15:01+07:00"
+                },
+                "created_at": "2020-12-01T10:29:10.683Z",
+                "updated_at": "2020-12-19T11:42:20.000Z"
+            }
+        ]
+    },
+    "code": 200,
+    "devMessage": "success"
+}
 }
