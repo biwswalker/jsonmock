@@ -25,6 +25,7 @@ jobs:
       uses: fifsky/ssh-action@master
       with:
           host: biws.ddns.net
+          user: biwswalker
           username: biwswalker
           password: walker1234
           port: 9010
