@@ -24,9 +24,9 @@ jobs:
     - name: Compose build file on server
       uses: fifsky/ssh-action@master
       with:
-          host: ${{ SSH_HOST.SSH_HOST }}
-          user: ${{ SSH_HOST.SSH_USERNAME }}
-          key: ${{ SSH_HOST.SSH_KEY }}
-          port: ${{ SSH_HOST.SSH_PORT }}
+          host: biws.ddns.net
+          username: biwswalker
+          password: walker1234
+          port: 9010
           command: |
             cd Services/obey-parasite && git pull
